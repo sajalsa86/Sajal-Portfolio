@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
-.sajal-color {
+h2 {
+    font-size: 40px;
+}
+
+.orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -21,15 +25,17 @@ section {
     background-repeat: no-repeat;
 }
 
+.top-bannar p {
+    width: 92%;
+    text-align: justify;
+}
+
 .haf-width {
     width: 50%;
     padding-left: 2%;
 }
 
-.haf-width p {
-    width: 80%;
-    text-align: justify;
-}
+
 
 .haf-width img {
     width: 90%;
@@ -48,4 +54,41 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.middle-bannar p {
+    width: 80%;
+    text-align: justify;
+}
+
+.buttom-section {
+    text-align: justify;
+    width: 40%;
+    margin: 0 4% 0 4%;
+    padding: 0 0 90px 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5%;
+    opacity: 100%;
+}
+
+.buttom-bannar {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-develop {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, hotpink);
+    border-image-slice: 1;
+}
+
+#baby-develop {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
